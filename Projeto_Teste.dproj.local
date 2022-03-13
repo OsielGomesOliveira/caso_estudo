@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/03/13 09:33:39.000.270,=C:\Users\Osiel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/13 09:43:37.000.789,C:\Projetos\crud_1\Pages\Crud.Page.Main.pas=C:\Users\Osiel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/13 09:43:37.000.789,C:\Projetos\crud_1\Pages\Crud.Page.Main.dfm=C:\Users\Osiel\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/03/13 09:44:03.000.305,C:\Projetos\crud_1\Projeto_Teste.dproj=C:\Users\Osiel\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/03/13 11:09:36.000.845,=C:\Projetos\crud_1\Unit1.pas</Transaction>
+    <Transaction>2022/03/13 14:10:13.000.093,C:\Projetos\crud_1\Pages\Crud.Page.Template.dfm=C:\Projetos\crud_1\Unit1.dfm</Transaction>
+    <Transaction>2022/03/13 14:10:13.000.093,C:\Projetos\crud_1\Pages\Crud.Page.Template.pas=C:\Projetos\crud_1\Unit1.pas</Transaction>
+    <Transaction>2022/03/13 15:39:08.000.943,=C:\Projetos\crud_1\Unit1.pas</Transaction>
+    <Transaction>2022/03/13 15:39:55.000.146,C:\Projetos\crud_1\Pages\Crud.Page.Cliente.pas=C:\Projetos\crud_1\Unit1.pas</Transaction>
+    <Transaction>2022/03/13 15:39:55.000.146,C:\Projetos\crud_1\Pages\Crud.Page.Cliente.dfm=C:\Projetos\crud_1\Unit1.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Pages"/>
+    <File Path="Pages\Crud.Page.Cliente.pas"/>
+    <File Path="Pages\Crud.Page.Cliente.dfm"/>
+    <File Path="Pages\Crud.Page.Main.pas"/>
+    <File Path="Pages\Crud.Page.Main.dfm"/>
+    <File Path="Pages\Crud.Page.Template.pas"/>
+    <File Path="Pages\Crud.Page.Template.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

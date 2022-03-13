@@ -1,0 +1,283 @@
+object pageMain: TpageMain
+  Left = 0
+  Top = 0
+  Caption = 'Projeto teste'
+  ClientHeight = 768
+  ClientWidth = 1024
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 17
+  object pnlEmbedPage: TPanel
+    Left = 201
+    Top = 57
+    Width = 823
+    Height = 711
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'pnlEmbedPage'
+    Color = 16185078
+    Padding.Bottom = 20
+    ParentBackground = False
+    ShowCaption = False
+    TabOrder = 0
+    ExplicitTop = 0
+    ExplicitHeight = 768
+  end
+  object pnlMenu: TPanel
+    Left = 0
+    Top = 57
+    Width = 201
+    Height = 711
+    Align = alLeft
+    BevelOuter = bvNone
+    Caption = 'pnlMenu'
+    Color = 16185078
+    Padding.Left = 15
+    Padding.Top = 50
+    Padding.Right = 10
+    ParentBackground = False
+    ShowCaption = False
+    TabOrder = 1
+    ExplicitTop = 0
+    ExplicitHeight = 768
+    object btnColaborador: TSpeedButton
+      Left = 15
+      Top = 90
+      Width = 176
+      Height = 40
+      Align = alTop
+      BiDiMode = bdLeftToRight
+      Caption = '      Colaboradores'
+      ImageIndex = 1
+      ImageName = 'colaboradores'
+      Images = VirtualImageList
+      Flat = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+      ParentBiDiMode = False
+      OnClick = btnColaboradorClick
+      ExplicitLeft = 0
+      ExplicitTop = 85
+      ExplicitWidth = 191
+    end
+    object btnCliente: TSpeedButton
+      Left = 15
+      Top = 50
+      Width = 176
+      Height = 40
+      Align = alTop
+      BiDiMode = bdLeftToRight
+      Caption = '     Clientes           '
+      ImageIndex = 0
+      ImageName = 'clientes'
+      Images = VirtualImageList
+      Flat = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+      ParentBiDiMode = False
+      OnClick = btnClienteClick
+      ExplicitLeft = 0
+      ExplicitWidth = 191
+    end
+    object btnConfiguracao: TSpeedButton
+      Left = 15
+      Top = 130
+      Width = 176
+      Height = 40
+      Align = alTop
+      BiDiMode = bdLeftToRight
+      Caption = '      Configura'#231#227'o'
+      ImageIndex = 2
+      ImageName = 'Configuracao'
+      Images = VirtualImageList
+      Flat = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+      ParentBiDiMode = False
+      OnClick = btnConfiguracaoClick
+      ExplicitLeft = 0
+      ExplicitTop = 226
+    end
+    object pnlSelecao: TPanel
+      Left = 12
+      Top = 85
+      Width = 5
+      Height = 15
+      Margins.Top = 15
+      BevelOuter = bvNone
+      Caption = 'pnlSelecao'
+      Color = clHighlight
+      ParentBackground = False
+      ShowCaption = False
+      TabOrder = 0
+      Visible = False
+    end
+  end
+  object pnlLogin: TPanel
+    Left = 0
+    Top = 0
+    Width = 1024
+    Height = 57
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'Ol'#225' [Osiel]'
+    ShowCaption = False
+    TabOrder = 2
+    object Label1: TLabel
+      Left = 963
+      Top = 0
+      Width = 61
+      Height = 57
+      Align = alRight
+      Caption = 'Ol'#225' [Osiel]'
+      Layout = tlCenter
+      ExplicitLeft = 966
+      ExplicitHeight = 17
+    end
+  end
+  object VirtualImageList: TVirtualImageList
+    DisabledGrayscale = False
+    DisabledSuffix = '_Disabled'
+    Images = <
+      item
+        CollectionIndex = 0
+        CollectionName = 'clientes'
+        Disabled = False
+        Name = 'clientes'
+      end
+      item
+        CollectionIndex = 1
+        CollectionName = 'colaboradores'
+        Disabled = False
+        Name = 'colaboradores'
+      end
+      item
+        CollectionIndex = 2
+        CollectionName = 'Configuracao'
+        Disabled = False
+        Name = 'Configuracao'
+      end>
+    ImageCollection = ImageCollection1
+    Width = 24
+    Height = 24
+    Left = 25
+    Top = 344
+  end
+  object ImageCollection1: TImageCollection
+    Images = <
+      item
+        Name = 'clientes'
+        SourceImages = <
+          item
+            Image.Data = {
+              89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+              F80000000473424954080808087C086488000000097048597300000085000000
+              8501E2ECFFC10000001974455874536F667477617265007777772E696E6B7363
+              6170652E6F72679BEE3C1A0000027C494441544889B5D55B8895551407F0DF99
+              73E6928D1786191ACB07F11A42810A09A310F6203D0442912FA220F820450A3E
+              D4B3F6524F9130A8411151038282A5284E6A604CE0E5781BC18C4A9DF0425833
+              A10DE46D7C58FBCC7CF3F59D5098FEF0C1E6FFEDBDD6DA6BFDD7DA8C471B3EC6
+              F7F808D312FF0CB627FE03B4267E063EC5316CC553397B1A32EB12F661106F61
+              187BD18843F8156FA3053DC9D8619CC13B988E4FF20EB298876A8EEBC79BF82E
+              17C815AC4A01D450C6CD1440E10DEE6272DA0815918A3B989A0C437332F2B7B1
+              14C2A474E641D64129B73E8D5FF0355E4727BA7009C7D18BD569FF6B18C07E51
+              9BF5F8239D2BBCC116FC891FB04C14EE1F9CC54F389FF88329F22AFA446D9662
+              0F6661AD3AB886F61CD7999C4CCAF1F331240490C54BE936853768C5ADDC81DF
+              45AE870BF821DC2BE0A7D473F0BFA09259F7E39CF151350A659DC6C30CDF2274
+              5FC548867F1A27B20EB22A6A129D99C508AEE3B91CFF5068FED9027E40D4A28C
+              BE928945598C8E05695DADFCF77EB3B15C08E04721C92BA229F3A8E08B64B84B
+              8C92ABF56ED08A6EA1EFFDB88DE7F1223A727B47F0A51888235883FBD829D7D5
+              8DD8865770041FFAB7CE8BD08C9FF195B131B359F443736D5319BBF08DE8E69E
+              0243E5146523166171FA5EC68DF40F568AD132DAB40DF83C3928A7C303589173
+              30131B45017BF16DFAF6E18DB467217E13E91C45B7186ED974BC80AB62A03D2E
+              E6E0B248F1282AE21DB8280A53433F5EC5012C11B3A84D3452113A92834D389A
+              FD511272DA2386DD06E32B3F5714FC9428E25F751C0CE282188C8568C26E51DC
+              6CAADAC5985E57EFE093A08CCF84EE5BC42B7612EF4E84F11A1AB043A8E404DE
+              9B48E33594F0BE098AFC114B0B86F204779D810000000049454E44AE426082}
+          end>
+      end
+      item
+        Name = 'colaboradores'
+        SourceImages = <
+          item
+            Image.Data = {
+              89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+              F80000000473424954080808087C0864880000000970485973000000B1000000
+              B101C62D498D0000001974455874536F667477617265007777772E696E6B7363
+              6170652E6F72679BEE3C1A000002244944415448899DD64D6C4C511407F05FA7
+              AD1292C142694D8AA289DA90B2AC8FD04448DB058958B0B4A11612B1102BE942
+              D889A4E88684154114D10489D8598AA6129421F111156121362CEEAD3EE3BD37
+              13FFE424F3CEF99F8F7BDE39F74D9D7CB4A117DBB1140BA2FE1B9EE221AEA05C
+              25CE3F28611813388D6E3427EC456CC409BCC165B4D61ABC2F567418336BE0CF
+              C081E8B3B51AF910C6B0B2D66A1228096D2C6611FA62F0F9FF113C8993684CCB
+              5E965DF97A8CE27B945174E524E9C2A2A46258E8791A36C4E43BD1146557D475
+              67F8ECC7A5A98736615AB25EE8336C4AD16F1646350D3362CC5241E8FD55FC48
+              212E47031EA4D8EE0BA7599662FB29ECC7EE02B6E1664625B3F125C326DAE664
+              D8EE0AEDF5DCF4865662163E65D89BF151766B8BC2129A4421A7CAE3B8E3EFF9
+              2EC60A8FE5F8114F3F89FA1C5201A784A9B918A52CCC7B5E61F5F80CE35858A5
+              12C2AEEC8952AA81DF82B106BC4407DEE790D7A107EDF17909EEE1498E4F075E
+              143082FE0C52271EE30C7EE15614388B475895E1DB8FDB84E34E08CB91440F5E
+              0BDF832CF445CE960A7D53D4FFB9C22FE04882B02226EDCC093E85D591DB9ED0
+              1DC55092D48A77A6B7F23AF6D6107C0AFB702DFE6EC75B15971DA115E3582BBC
+              F8BCD1AD443D5E614D8CB1238B3880AF2A8E5723CE45DF83D588BDC21107A47C
+              3852D018B965399557A205E7A3D3A0705DCF4DD8E745DDA070DF0C49E939D455
+              49B45818C5CABF2D1F849E8FE0863020A9F80DA3976A1DE5FB27CF0000000049
+              454E44AE426082}
+          end>
+      end
+      item
+        Name = 'Configuracao'
+        SourceImages = <
+          item
+            Image.Data = {
+              89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+              F80000000473424954080808087C0864880000000970485973000000B1000000
+              B101C62D498D0000001974455874536F667477617265007777772E696E6B7363
+              6170652E6F72679BEE3C1A000002B9494441544889ADD54F8857551407F0CFF9
+              8D3A303350A40B8982C88581FD99407406248B21034B2A5A24B4A8458A11A948
+              4812C1102514B371538B11A45629D86C3428B5C2C50FAD2C1B91422A085A1418
+              B8573C2DDE7DD39BD77366161DB8FCEEF9DEEFF7DEFBCEB9E7FC22332DC52262
+              0067707B81966377669E5948D75BD2EE95ADC32F99399A99A37811CF2D26EA3C
+              20228622E258445C8A886D05BE17BF37687F6275440C44C4CA88F83C222E46C4
+              A6799B65E6BC81217C8117701B6670AAFC0EB6B83B70A1AC3F8ED5F8169BE638
+              1D071CC0DE36BED4510EB958FBCB3A22F41BB646442F336FB642B70A0FE30EFC
+              882B6D0E1EC05F739AAE57141193B89E99EF167F0526B1195FE12A46710F7665
+              E6CF0DED296CCFCCBF3B73D0F8D45E63FE345EA92FD4C0D7E21CEE6B60173070
+              CB1C3488D3982D637A01DE5A7C5D5FA824FE537C80892671187B308E11F41B6B
+              FD828D17CE70EB908F5B5F7117D6E372AFC46D182754D5B9139F615F232DFB0A
+              B6B3704E144D6DDFE3A1DAC9CC3F32F33B5CAF5FD1CB38999953FFC978253887
+              471A89AC35870AB40A97BBB475257FA36A057316111B22622A225E8B883B5BBA
+              754523AAD31EC50FC51F8C88B722E230AED5311BC1D9460CDFC697D882091CC5
+              7B8DF5B31829F35D38D8589BC13378100354AFA58FB142D880D31DAFE5281E2B
+              F3B1A299C6B358D1E09D6EE9CCB68077F07CC70113986A61B31DBC196CABFDAE
+              6E9AB8BB031FC48D0EBC6D2FE160EDF4703E22FA113156B04FB0A5F90C23A287
+              5771BCF86311D12FDA6511F166E1C053F8E9DFEB7627F9002EE189324EE2C3AE
+              24177F121F61AFAAD50FCD6B15AA0A3DD28AE5FD982A63736BED08C65BD876BC
+              D1DC3C33ABE615117BB0FC5685D6B688785DD56D0F2DC6AD2BF9B0AAFCA98A68
+              0DF6970A56F2F33E7E5555EC9325D68BDBFFD1EC161A9D7F38E5D6D3D858DCF3
+              99B96349376ED93F79174B4678B1C8150000000049454E44AE426082}
+          end>
+      end>
+    Left = 33
+    Top = 296
+  end
+end
